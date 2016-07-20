@@ -1,0 +1,33 @@
+.clearfix {
+	:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+
+.subcontent {
+  background: #fff;
+  padding: 2em 0 3em;
+}
+
+.location {
+	float: left;
+	padding-right: 0;
+	width: 20%;
+	dt {
+		color: #506F8E;
+		font-weight: bold;
+	}
+	dd {
+		margin: 0;
+	}
+}
+

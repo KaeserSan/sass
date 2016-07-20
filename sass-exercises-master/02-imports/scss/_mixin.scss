@@ -1,0 +1,4 @@
+@mixin scaletrans ($param){
+	width: (width * $param);
+	height: (height * $param);
+}
